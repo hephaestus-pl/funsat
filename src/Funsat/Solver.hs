@@ -87,10 +87,11 @@ module Funsat.Solver
 import Control.Arrow( (&&&) )
 import Control.Exception( assert )
 import Control.Monad.Error hiding ( (>=>), forM_, runErrorT )
-import Control.Monad.MonadST( MonadST(..) )
+-- import Control.Monad.MonadST( MonadST(..) )
 import Control.Monad.ST.Strict
 import Control.Monad.State.Lazy hiding ( (>=>), forM_ )
-import Data.Array.ST
+import Data.Array.ST hiding (unsafeFreeze)
+import Data.Array.Unsafe(unsafeFreeze)
 import Data.Array.Unboxed
 import Data.Foldable hiding ( sequence_ )
 import Data.Int( Int64 )
@@ -98,7 +99,7 @@ import Data.List( nub, tails, sortBy, sort )
 import Data.Maybe
 import Data.Ord( comparing )
 import Data.STRef
-import Data.Sequence( Seq )
+-- import Data.Sequence( Seq )
 -- import Debug.Trace (trace)
 import Funsat.Monad
 import Funsat.Utils
@@ -109,7 +110,7 @@ import Prelude hiding ( sum, concatMap, elem, foldr, foldl, any, maximum )
 import Funsat.Resolution( ResolutionError(..) )
 import Text.Printf( printf )
 import qualified Data.Foldable as Fl
-import qualified Data.List as List
+-- import qualified Data.List as List
 import qualified Data.Map as Map
 import qualified Data.Sequence as Seq
 import qualified Data.Set as Set
@@ -415,7 +416,7 @@ decide m v = do
 --   trace ("decide " ++ show ld) $ return ()
   incNumDecisions
   modify $ \s -> s{ dl = ld:dl }
-  enqueue m ld Nothing
+  _ <- enqueue m ld Nothing
   return $ Just m
 
 
@@ -456,8 +457,8 @@ backJump m c@(_, _conflict, _) = get >>= \(SC{dl=dl, reason=_reason}) -> do
 --     trace ("new mFr: " ++ showAssignment mFr) $ return ()
     -- TODO once I'm sure this works I don't need getUnit, I can just use the
     -- uip of the cut.
-    watchClause m (learntCl, learntClId) True
-    enqueue m (getUnit learntCl mFr) (Just (learntCl, learntClId))
+    _ <- watchClause m (learntCl, learntClId) True
+    _ <- enqueue m (getUnit learntCl mFr) (Just (learntCl, learntClId))
       -- learntCl is asserting
     return $ Just m
 
@@ -584,7 +585,7 @@ undoOne m = do
     case trl of
       []       -> error "undoOne of empty trail"
       (l:trl') -> do
-          liftST $ m `unassign` l
+          _ <- ($) liftST $ m `unassign` l
           liftST $ writeArray lvl (var l) noLevel
           modify $ \s ->
             s{ trail    = trl'
@@ -697,7 +698,7 @@ enqueue m l r = do
     case l `statusUnder` mFr of
       Right b -> return b         -- conflict/already assigned
       Left () -> do
-        liftST $ m `assign` l
+        _ <- liftST $ m `assign` l
         -- assign decision level for literal
         gets (level &&& (length . dl)) >>= \(levelArr, dlInt) ->
           liftST (writeArray levelArr (var l) dlInt)

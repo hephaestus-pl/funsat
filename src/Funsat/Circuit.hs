@@ -651,7 +651,8 @@ emptyCNFState = CNFS{ toCnfVars = [V 1 ..]
                     , toCnfMap = Bimap.empty }
 
 -- retrieve and create (if necessary) a cnf variable for the given ccode.
---findVar :: (MonadState CNFState m) => CCode -> m Lit
+-- findVar :: (MonadState CNFState m) => CCode -> m Lit
+-- findVar :: forall (m :: * -> *). MonadState CNFState m => CCode -> m Lit
 findVar ccode = do
     m <- gets toCnfMap
     v:vs <- gets toCnfVars

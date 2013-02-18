@@ -27,7 +27,8 @@ module Funsat.Types where
 
 import Control.Monad.MonadST( MonadST(..) )
 import Control.Monad.ST.Strict
-import Data.Array.ST
+import Data.Array.ST hiding (unsafeFreeze, unsafeThaw)
+import Data.Array.Unsafe (unsafeFreeze, unsafeThaw)
 import Data.Array.Unboxed
 import Data.BitSet ( BitSet )
 import Data.Foldable hiding ( sequence_ )

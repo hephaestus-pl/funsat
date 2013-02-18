@@ -34,7 +34,7 @@ import System.Random
 import Test.QuickCheck
 import Test.QuickCheck.Gen( unGen )
 
-import qualified Data.Foldable as Foldable
+-- import qualified Data.Foldable as Foldable
 import qualified Data.List as List
 import qualified Data.Set as Set
 import qualified Data.Map as Map
