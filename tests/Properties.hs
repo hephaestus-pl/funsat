@@ -88,7 +88,7 @@ check :: Testable prop => Args -> prop -> IO ()
 check = QC.quickCheckWith
 config = QC.stdArgs{ maxSuccess = 1400
                    , maxSize    = 800
-                   , maxDiscard = 1000 }
+                   , maxDiscardRatio = 1000 }
 
 -- Special configuration for the "solve this random instance" tests.
 solveConfig  = config{ maxSuccess = 2000 }
