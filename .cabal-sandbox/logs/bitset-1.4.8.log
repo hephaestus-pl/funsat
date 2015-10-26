@@ -1,0 +1,45 @@
+[1 of 1] Compiling Main             ( /var/folders/v1/2h87j_m52bn3s797q45fy8540000gn/T/cabal-tmp-12653/bitset-1.4.8/dist/dist-sandbox-efe89a56/setup/setup.hs, /var/folders/v1/2h87j_m52bn3s797q45fy8540000gn/T/cabal-tmp-12653/bitset-1.4.8/dist/dist-sandbox-efe89a56/setup/Main.o )
+Linking /var/folders/v1/2h87j_m52bn3s797q45fy8540000gn/T/cabal-tmp-12653/bitset-1.4.8/dist/dist-sandbox-efe89a56/setup/setup ...
+Configuring bitset-1.4.8...
+Building bitset-1.4.8...
+Preprocessing library bitset-1.4.8...
+[1 of 6] Compiling GHC.Integer.GMP.PrimExt ( src/GHC/Integer/GMP/PrimExt.hs, dist/dist-sandbox-efe89a56/build/GHC/Integer/GMP/PrimExt.o )
+[2 of 6] Compiling Data.BitSet.Generic ( src/Data/BitSet/Generic.hs, dist/dist-sandbox-efe89a56/build/Data/BitSet/Generic.o )
+[3 of 6] Compiling Data.BitSet.Word ( src/Data/BitSet/Word.hs, dist/dist-sandbox-efe89a56/build/Data/BitSet/Word.o )
+[4 of 6] Compiling GHC.Integer.GMP.TypeExt ( src/GHC/Integer/GMP/TypeExt.hs, dist/dist-sandbox-efe89a56/build/GHC/Integer/GMP/TypeExt.o )
+[5 of 6] Compiling Data.BitSet.Dynamic ( src/Data/BitSet/Dynamic.hs, dist/dist-sandbox-efe89a56/build/Data/BitSet/Dynamic.o )
+
+src/Data/BitSet/Dynamic.hs:125:15: Warning:
+    In the use of ‘bitSize’ (imported from Data.Bits):
+    Deprecated: "Use 'bitSizeMaybe' or 'finiteBitSize' instead"
+[6 of 6] Compiling Data.BitSet      ( src/Data/BitSet.hs, dist/dist-sandbox-efe89a56/build/Data/BitSet.o )
+[1 of 6] Compiling GHC.Integer.GMP.PrimExt ( src/GHC/Integer/GMP/PrimExt.hs, dist/dist-sandbox-efe89a56/build/GHC/Integer/GMP/PrimExt.p_o )
+[2 of 6] Compiling Data.BitSet.Generic ( src/Data/BitSet/Generic.hs, dist/dist-sandbox-efe89a56/build/Data/BitSet/Generic.p_o )
+[3 of 6] Compiling Data.BitSet.Word ( src/Data/BitSet/Word.hs, dist/dist-sandbox-efe89a56/build/Data/BitSet/Word.p_o )
+[4 of 6] Compiling GHC.Integer.GMP.TypeExt ( src/GHC/Integer/GMP/TypeExt.hs, dist/dist-sandbox-efe89a56/build/GHC/Integer/GMP/TypeExt.p_o )
+[5 of 6] Compiling Data.BitSet.Dynamic ( src/Data/BitSet/Dynamic.hs, dist/dist-sandbox-efe89a56/build/Data/BitSet/Dynamic.p_o )
+
+src/Data/BitSet/Dynamic.hs:125:15: Warning:
+    In the use of ‘bitSize’ (imported from Data.Bits):
+    Deprecated: "Use 'bitSizeMaybe' or 'finiteBitSize' instead"
+[6 of 6] Compiling Data.BitSet      ( src/Data/BitSet.hs, dist/dist-sandbox-efe89a56/build/Data/BitSet.p_o )
+In-place registering bitset-1.4.8...
+Running Haddock for bitset-1.4.8...
+Preprocessing library bitset-1.4.8...
+
+dist/dist-sandbox-efe89a56/build/tmp-13417/src/Data/BitSet/Dynamic.hs:125:15: Warning:
+    In the use of ‘bitSize’ (imported from Data.Bits):
+    Deprecated: "Use 'bitSizeMaybe' or 'finiteBitSize' instead"
+Haddock coverage:
+   0% (  0 /  5) in 'GHC.Integer.GMP.PrimExt'
+ 100% ( 31 / 31) in 'Data.BitSet.Generic'
+  97% ( 30 / 31) in 'Data.BitSet.Word'
+   0% (  0 /  5) in 'GHC.Integer.GMP.TypeExt'
+  97% ( 31 / 32) in 'Data.BitSet.Dynamic'
+ 100% (  2 /  2) in 'Data.BitSet'
+Documentation created: dist/dist-sandbox-efe89a56/doc/html/bitset/index.html
+Creating package registration file:
+/var/folders/v1/2h87j_m52bn3s797q45fy8540000gn/T/pkgConf-bitset-1.415519013931617819336.8
+Installing library in
+/Users/rbonifacio/Documents/workspace/funsat/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/bitset-1.4.8
+Registering bitset-1.4.8...

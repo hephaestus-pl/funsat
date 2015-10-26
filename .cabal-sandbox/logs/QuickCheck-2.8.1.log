@@ -1,0 +1,69 @@
+Configuring QuickCheck-2.8.1...
+Building QuickCheck-2.8.1...
+Preprocessing library QuickCheck-2.8.1...
+[ 1 of 15] Compiling Test.QuickCheck.Random ( Test/QuickCheck/Random.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Random.o )
+[ 2 of 15] Compiling Test.QuickCheck.Exception ( Test/QuickCheck/Exception.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Exception.o )
+[ 3 of 15] Compiling Test.QuickCheck.Text ( Test/QuickCheck/Text.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Text.o )
+[ 4 of 15] Compiling Test.QuickCheck.State ( Test/QuickCheck/State.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/State.o )
+[ 5 of 15] Compiling Test.QuickCheck.Gen ( Test/QuickCheck/Gen.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Gen.o )
+[ 6 of 15] Compiling Test.QuickCheck.Gen.Unsafe ( Test/QuickCheck/Gen/Unsafe.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Gen/Unsafe.o )
+[ 7 of 15] Compiling Test.QuickCheck.Arbitrary ( Test/QuickCheck/Arbitrary.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Arbitrary.o )
+[ 8 of 15] Compiling Test.QuickCheck.Modifiers ( Test/QuickCheck/Modifiers.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Modifiers.o )
+[ 9 of 15] Compiling Test.QuickCheck.Poly ( Test/QuickCheck/Poly.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Poly.o )
+[10 of 15] Compiling Test.QuickCheck.Function ( Test/QuickCheck/Function.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Function.o )
+[11 of 15] Compiling Test.QuickCheck.Property ( Test/QuickCheck/Property.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Property.o )
+[12 of 15] Compiling Test.QuickCheck.Test ( Test/QuickCheck/Test.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Test.o )
+[13 of 15] Compiling Test.QuickCheck.All ( Test/QuickCheck/All.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/All.o )
+[14 of 15] Compiling Test.QuickCheck.Monadic ( Test/QuickCheck/Monadic.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Monadic.o )
+[15 of 15] Compiling Test.QuickCheck  ( Test/QuickCheck.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck.o )
+[ 1 of 15] Compiling Test.QuickCheck.Random ( Test/QuickCheck/Random.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Random.p_o )
+[ 2 of 15] Compiling Test.QuickCheck.Exception ( Test/QuickCheck/Exception.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Exception.p_o )
+[ 3 of 15] Compiling Test.QuickCheck.Text ( Test/QuickCheck/Text.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Text.p_o )
+[ 4 of 15] Compiling Test.QuickCheck.State ( Test/QuickCheck/State.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/State.p_o )
+[ 5 of 15] Compiling Test.QuickCheck.Gen ( Test/QuickCheck/Gen.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Gen.p_o )
+[ 6 of 15] Compiling Test.QuickCheck.Gen.Unsafe ( Test/QuickCheck/Gen/Unsafe.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Gen/Unsafe.p_o )
+[ 7 of 15] Compiling Test.QuickCheck.Arbitrary ( Test/QuickCheck/Arbitrary.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Arbitrary.p_o )
+[ 8 of 15] Compiling Test.QuickCheck.Modifiers ( Test/QuickCheck/Modifiers.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Modifiers.p_o )
+[ 9 of 15] Compiling Test.QuickCheck.Poly ( Test/QuickCheck/Poly.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Poly.p_o )
+[10 of 15] Compiling Test.QuickCheck.Function ( Test/QuickCheck/Function.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Function.p_o )
+[11 of 15] Compiling Test.QuickCheck.Property ( Test/QuickCheck/Property.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Property.p_o )
+[12 of 15] Compiling Test.QuickCheck.Test ( Test/QuickCheck/Test.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Test.p_o )
+[13 of 15] Compiling Test.QuickCheck.All ( Test/QuickCheck/All.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/All.p_o )
+[14 of 15] Compiling Test.QuickCheck.Monadic ( Test/QuickCheck/Monadic.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck/Monadic.p_o )
+[15 of 15] Compiling Test.QuickCheck  ( Test/QuickCheck.hs, dist/dist-sandbox-efe89a56/build/Test/QuickCheck.p_o )
+In-place registering QuickCheck-2.8.1...
+Running Haddock for QuickCheck-2.8.1...
+Preprocessing library QuickCheck-2.8.1...
+Warning: The documentation for the following packages are not installed. No
+links will be generated to these packages: primitive-0.6, random-1.1
+Haddock coverage:
+  10% (  2 / 20) in 'Test.QuickCheck.Random'
+  33% (  3 /  9) in 'Test.QuickCheck.Exception'
+   6% (  1 / 18) in 'Test.QuickCheck.Text'
+ 100% (  2 /  2) in 'Test.QuickCheck.State'
+  89% ( 25 / 28) in 'Test.QuickCheck.Gen'
+  80% (  4 /  5) in 'Test.QuickCheck.Gen.Unsafe'
+ 100% ( 32 / 32) in 'Test.QuickCheck.Arbitrary'
+  93% ( 14 / 15) in 'Test.QuickCheck.Modifiers'
+  14% (  1 /  7) in 'Test.QuickCheck.Poly'
+  38% (  3 /  8) in 'Test.QuickCheck.Function'
+  62% ( 44 / 71) in 'Test.QuickCheck.Property'
+  50% ( 14 / 28) in 'Test.QuickCheck.Test'
+ 100% (  9 /  9) in 'Test.QuickCheck.All'
+  78% ( 14 / 18) in 'Test.QuickCheck.Monadic'
+  99% (127 /128) in 'Test.QuickCheck'
+Warning: Test.QuickCheck.Random: could not find link destinations for:
+    System.Random.StdGen System.Random.RandomGen
+Warning: Test.QuickCheck.Gen: could not find link destinations for:
+    System.Random.Random
+Warning: Test.QuickCheck.Arbitrary: could not find link destinations for:
+    System.Random.Random Test.QuickCheck.Arbitrary.RecursivelyShrink Test.QuickCheck.Arbitrary.GSubterms Test.QuickCheck.Arbitrary.GCoArbitrary Test.QuickCheck.Arbitrary.gSubterms Test.QuickCheck.Arbitrary.gSubtermsIncl
+Warning: Test.QuickCheck: could not find link destinations for:
+    System.Random.Random Test.QuickCheck.Arbitrary.GCoArbitrary Test.QuickCheck.Arbitrary.RecursivelyShrink Test.QuickCheck.Arbitrary.GSubterms
+Documentation created:
+dist/dist-sandbox-efe89a56/doc/html/QuickCheck/index.html
+Creating package registration file:
+/var/folders/v1/2h87j_m52bn3s797q45fy8540000gn/T/pkgConf-QuickCheck-2.81075260298824938981.1
+Installing library in
+/Users/rbonifacio/Documents/workspace/funsat/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/QuickCheck-2.8.1
+Registering QuickCheck-2.8.1...

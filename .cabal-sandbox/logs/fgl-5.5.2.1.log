@@ -1,0 +1,113 @@
+Configuring fgl-5.5.2.1...
+Building fgl-5.5.2.1...
+Preprocessing library fgl-5.5.2.1...
+[ 1 of 28] Compiling Paths_fgl        ( dist/dist-sandbox-efe89a56/build/autogen/Paths_fgl.hs, dist/dist-sandbox-efe89a56/build/Paths_fgl.o )
+[ 2 of 28] Compiling Data.Graph.Inductive.Internal.Thread ( Data/Graph/Inductive/Internal/Thread.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Internal/Thread.o )
+[ 3 of 28] Compiling Data.Graph.Inductive.Graph ( Data/Graph/Inductive/Graph.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Graph.o )
+[ 4 of 28] Compiling Data.Graph.Inductive.Basic ( Data/Graph/Inductive/Basic.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Basic.o )
+[ 5 of 28] Compiling Data.Graph.Inductive.PatriciaTree ( Data/Graph/Inductive/PatriciaTree.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/PatriciaTree.o )
+[ 6 of 28] Compiling Data.Graph.Inductive.Monad ( Data/Graph/Inductive/Monad.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Monad.o )
+Loading package ghc-prim ... linking ... done.
+Loading package integer-gmp ... linking ... done.
+Loading package base ... linking ... done.
+Loading package transformers-0.3.0.0 ... linking ... done.
+Loading package array-0.5.0.0 ... linking ... done.
+Loading package deepseq-1.3.0.2 ... linking ... done.
+Loading package containers-0.5.5.1 ... linking ... done.
+[ 7 of 28] Compiling Data.Graph.Inductive.Monad.IOArray ( Data/Graph/Inductive/Monad/IOArray.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Monad/IOArray.o )
+[ 8 of 28] Compiling Data.Graph.Inductive.Example ( Data/Graph/Inductive/Example.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Example.o )
+[ 9 of 28] Compiling Data.Graph.Inductive.NodeMap ( Data/Graph/Inductive/NodeMap.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/NodeMap.o )
+[10 of 28] Compiling Data.Graph.Inductive.Query.ArtPoint ( Data/Graph/Inductive/Query/ArtPoint.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/ArtPoint.o )
+[11 of 28] Compiling Data.Graph.Inductive.Query.DFS ( Data/Graph/Inductive/Query/DFS.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/DFS.o )
+[12 of 28] Compiling Data.Graph.Inductive.Query.BCC ( Data/Graph/Inductive/Query/BCC.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/BCC.o )
+[13 of 28] Compiling Data.Graph.Inductive.Query.Dominators ( Data/Graph/Inductive/Query/Dominators.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/Dominators.o )
+[14 of 28] Compiling Data.Graph.Inductive.Query.Indep ( Data/Graph/Inductive/Query/Indep.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/Indep.o )
+[15 of 28] Compiling Data.Graph.Inductive.Query.Monad ( Data/Graph/Inductive/Query/Monad.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/Monad.o )
+[16 of 28] Compiling Data.Graph.Inductive.Query.TransClos ( Data/Graph/Inductive/Query/TransClos.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/TransClos.o )
+[17 of 28] Compiling Data.Graph.Inductive.Tree ( Data/Graph/Inductive/Tree.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Tree.o )
+[18 of 28] Compiling Data.Graph.Inductive.Internal.RootPath ( Data/Graph/Inductive/Internal/RootPath.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Internal/RootPath.o )
+[19 of 28] Compiling Data.Graph.Inductive.Internal.Queue ( Data/Graph/Inductive/Internal/Queue.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Internal/Queue.o )
+[20 of 28] Compiling Data.Graph.Inductive.Query.BFS ( Data/Graph/Inductive/Query/BFS.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/BFS.o )
+[21 of 28] Compiling Data.Graph.Inductive.Query.MaxFlow ( Data/Graph/Inductive/Query/MaxFlow.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/MaxFlow.o )
+[22 of 28] Compiling Data.Graph.Inductive.Query.MaxFlow2 ( Data/Graph/Inductive/Query/MaxFlow2.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/MaxFlow2.o )
+[23 of 28] Compiling Data.Graph.Inductive.Internal.Heap ( Data/Graph/Inductive/Internal/Heap.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Internal/Heap.o )
+[24 of 28] Compiling Data.Graph.Inductive.Query.MST ( Data/Graph/Inductive/Query/MST.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/MST.o )
+[25 of 28] Compiling Data.Graph.Inductive.Query.SP ( Data/Graph/Inductive/Query/SP.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/SP.o )
+[26 of 28] Compiling Data.Graph.Inductive.Query.GVD ( Data/Graph/Inductive/Query/GVD.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/GVD.o )
+[27 of 28] Compiling Data.Graph.Inductive.Query ( Data/Graph/Inductive/Query.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query.o )
+[28 of 28] Compiling Data.Graph.Inductive ( Data/Graph/Inductive.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive.o )
+[ 1 of 28] Compiling Paths_fgl        ( dist/dist-sandbox-efe89a56/build/autogen/Paths_fgl.hs, dist/dist-sandbox-efe89a56/build/Paths_fgl.p_o )
+[ 2 of 28] Compiling Data.Graph.Inductive.Internal.Thread ( Data/Graph/Inductive/Internal/Thread.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Internal/Thread.p_o )
+[ 3 of 28] Compiling Data.Graph.Inductive.Graph ( Data/Graph/Inductive/Graph.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Graph.p_o )
+[ 4 of 28] Compiling Data.Graph.Inductive.Basic ( Data/Graph/Inductive/Basic.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Basic.p_o )
+[ 5 of 28] Compiling Data.Graph.Inductive.PatriciaTree ( Data/Graph/Inductive/PatriciaTree.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/PatriciaTree.p_o )
+[ 6 of 28] Compiling Data.Graph.Inductive.Monad ( Data/Graph/Inductive/Monad.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Monad.p_o )
+Loading package ghc-prim ... linking ... done.
+Loading package integer-gmp ... linking ... done.
+Loading package base ... linking ... done.
+Loading package transformers-0.3.0.0 ... linking ... done.
+Loading package array-0.5.0.0 ... linking ... done.
+Loading package deepseq-1.3.0.2 ... linking ... done.
+Loading package containers-0.5.5.1 ... linking ... done.
+[ 7 of 28] Compiling Data.Graph.Inductive.Monad.IOArray ( Data/Graph/Inductive/Monad/IOArray.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Monad/IOArray.p_o )
+[ 8 of 28] Compiling Data.Graph.Inductive.Example ( Data/Graph/Inductive/Example.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Example.p_o )
+[ 9 of 28] Compiling Data.Graph.Inductive.NodeMap ( Data/Graph/Inductive/NodeMap.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/NodeMap.p_o )
+[10 of 28] Compiling Data.Graph.Inductive.Query.ArtPoint ( Data/Graph/Inductive/Query/ArtPoint.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/ArtPoint.p_o )
+[11 of 28] Compiling Data.Graph.Inductive.Query.DFS ( Data/Graph/Inductive/Query/DFS.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/DFS.p_o )
+[12 of 28] Compiling Data.Graph.Inductive.Query.BCC ( Data/Graph/Inductive/Query/BCC.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/BCC.p_o )
+[13 of 28] Compiling Data.Graph.Inductive.Query.Dominators ( Data/Graph/Inductive/Query/Dominators.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/Dominators.p_o )
+[14 of 28] Compiling Data.Graph.Inductive.Query.Indep ( Data/Graph/Inductive/Query/Indep.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/Indep.p_o )
+[15 of 28] Compiling Data.Graph.Inductive.Query.Monad ( Data/Graph/Inductive/Query/Monad.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/Monad.p_o )
+[16 of 28] Compiling Data.Graph.Inductive.Query.TransClos ( Data/Graph/Inductive/Query/TransClos.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/TransClos.p_o )
+[17 of 28] Compiling Data.Graph.Inductive.Tree ( Data/Graph/Inductive/Tree.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Tree.p_o )
+[18 of 28] Compiling Data.Graph.Inductive.Internal.RootPath ( Data/Graph/Inductive/Internal/RootPath.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Internal/RootPath.p_o )
+[19 of 28] Compiling Data.Graph.Inductive.Internal.Queue ( Data/Graph/Inductive/Internal/Queue.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Internal/Queue.p_o )
+[20 of 28] Compiling Data.Graph.Inductive.Query.BFS ( Data/Graph/Inductive/Query/BFS.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/BFS.p_o )
+[21 of 28] Compiling Data.Graph.Inductive.Query.MaxFlow ( Data/Graph/Inductive/Query/MaxFlow.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/MaxFlow.p_o )
+[22 of 28] Compiling Data.Graph.Inductive.Query.MaxFlow2 ( Data/Graph/Inductive/Query/MaxFlow2.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/MaxFlow2.p_o )
+[23 of 28] Compiling Data.Graph.Inductive.Internal.Heap ( Data/Graph/Inductive/Internal/Heap.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Internal/Heap.p_o )
+[24 of 28] Compiling Data.Graph.Inductive.Query.MST ( Data/Graph/Inductive/Query/MST.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/MST.p_o )
+[25 of 28] Compiling Data.Graph.Inductive.Query.SP ( Data/Graph/Inductive/Query/SP.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/SP.p_o )
+[26 of 28] Compiling Data.Graph.Inductive.Query.GVD ( Data/Graph/Inductive/Query/GVD.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query/GVD.p_o )
+[27 of 28] Compiling Data.Graph.Inductive.Query ( Data/Graph/Inductive/Query.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive/Query.p_o )
+[28 of 28] Compiling Data.Graph.Inductive ( Data/Graph/Inductive.hs, dist/dist-sandbox-efe89a56/build/Data/Graph/Inductive.p_o )
+In-place registering fgl-5.5.2.1...
+Running Haddock for fgl-5.5.2.1...
+Preprocessing library fgl-5.5.2.1...
+Haddock coverage:
+   0% (  0 /  8) in 'Paths_fgl'
+  23% (  3 / 13) in 'Data.Graph.Inductive.Internal.Thread'
+  97% ( 94 / 97) in 'Data.Graph.Inductive.Graph'
+ 100% ( 18 / 18) in 'Data.Graph.Inductive.Basic'
+  33% (  1 /  3) in 'Data.Graph.Inductive.PatriciaTree'
+  47% (  8 / 17) in 'Data.Graph.Inductive.Monad'
+  40% (  4 / 10) in 'Data.Graph.Inductive.Monad.IOArray'
+  23% ( 14 / 61) in 'Data.Graph.Inductive.Example'
+  48% ( 21 / 44) in 'Data.Graph.Inductive.NodeMap'
+  50% (  1 /  2) in 'Data.Graph.Inductive.Query.ArtPoint'
+  61% ( 23 / 38) in 'Data.Graph.Inductive.Query.DFS'
+  50% (  1 /  2) in 'Data.Graph.Inductive.Query.BCC'
+  67% (  2 /  3) in 'Data.Graph.Inductive.Query.Dominators'
+ 100% (  3 /  3) in 'Data.Graph.Inductive.Query.Indep'
+  30% ( 13 / 43) in 'Data.Graph.Inductive.Query.Monad'
+  50% (  1 /  2) in 'Data.Graph.Inductive.Query.TransClos'
+  33% (  1 /  3) in 'Data.Graph.Inductive.Tree'
+  33% (  3 /  9) in 'Data.Graph.Inductive.Internal.RootPath'
+  22% (  2 /  9) in 'Data.Graph.Inductive.Internal.Queue'
+  32% (  6 / 19) in 'Data.Graph.Inductive.Query.BFS'
+ 100% (  9 /  9) in 'Data.Graph.Inductive.Query.MaxFlow'
+  20% (  1 /  5) in 'Data.Graph.Inductive.Query.MaxFlow2'
+  17% (  3 / 18) in 'Data.Graph.Inductive.Internal.Heap'
+  43% (  3 /  7) in 'Data.Graph.Inductive.Query.MST'
+  71% (  5 /  7) in 'Data.Graph.Inductive.Query.SP'
+  89% (  8 /  9) in 'Data.Graph.Inductive.Query.GVD'
+Warning: fgl-5.5.2.1:Data.Graph.Inductive.Query: Could not find documentation for exported module: Q
+   0% (  0 /  1) in 'Data.Graph.Inductive.Query'
+Warning: fgl-5.5.2.1:Data.Graph.Inductive: Could not find documentation for exported module: I
+  67% (  2 /  3) in 'Data.Graph.Inductive'
+Documentation created: dist/dist-sandbox-efe89a56/doc/html/fgl/index.html
+Creating package registration file:
+/var/folders/v1/2h87j_m52bn3s797q45fy8540000gn/T/pkgConf-fgl-5.5.2771515668357571490.1
+Installing library in
+/Users/rbonifacio/Documents/workspace/funsat/.cabal-sandbox/lib/x86_64-osx-ghc-7.8.3/fgl-5.5.2.1
+Registering fgl-5.5.2.1...

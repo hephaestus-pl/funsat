@@ -1,0 +1,90 @@
+bitset Changelog
+================
+
+Here you can see the full list of changes between each bitset release.
+
+Version 1.4.8
+
+- Add support for GHC 7.8
+- IsList instance for BitSet, so it's possible to use OverloadedLists extension.
+
+Version 1.4.7
+-------------
+
+Released on August 25th, 2013
+
+- 'GBitSet' was renamed to 'BitSet' and is now 'newtype' as suggested
+  by John Ericson, see #10 on GitHub for details.
+
+Version 1.4.6
+-------------
+
+Released on July 17th, 2013
+
+- Fixed build issues on Windows, see #9 on GitHub for details.
+
+Version 1.4.5
+-------------
+
+Released on June 6th, 2013
+
+- Fixed 'Ord' instance, same bug as in 'Eq'. Where is my mind?
+
+Version 1.4.4
+-------------
+
+Released on May 14th, 2013
+
+- Fixed 'Eq' instance, equal sizes don't mean a thing!
+
+Version 1.4.3
+-------------
+
+Released on May 13th, 2013
+
+- Fixed bug with broken cabal distribution.
+
+Version 1.4.2
+-------------
+
+- Switched to GMP bit fiddling functions, the corresponding patch for
+  'integer-gmp' was submitted to GHC, see
+  http://hackage.haskell.org/trac/ghc/ticket/7860
+
+Version 1.4.1
+-------------
+
+Released on April 24th, 2013
+
+- Removed 'clearBitInteger' which didn't update the size field of
+  the newly created 'Integer'. Turns out it's completely non-trivial
+  to implement.
+
+
+Version 1.4.0
+-------------
+
+Released on April 4th, 2013
+
+- More speed optimizations, 'Data.BitSet.Dynamic' is close to 'Data.Set'
+  performance on most operations.
+- Added 'Data.BitSet.Word', a bit set with native integer as container
+  type, significantly faster then 'Data.Set' for enumerated types with
+  small number of constructors.
+- Added folds, 'map' and 'filter' for consistency with other Haskell
+  containers.
+
+Version 1.3.0
+-------------
+
+Released on March 25th, 2013
+
+- Added a generic bit set data type, abstract with respect to the underlying
+  container.
+- Improved dynamic bit set performance via optimized 'popCount' and
+  'testBit' functions.
+
+Version 1.2
+-----------
+
+Initial release, released on March 22th, 2013
