@@ -412,9 +412,9 @@ instance Arbitrary UnsatCNF where
 
 
 
-getCNF :: Int -> IO CNF
-getCNF maxVars = do g <- newStdGen
-                    return (unGen arbitrary g (maxVars * 3))
+-- getCNF :: Int -> IO CNF
+-- getCNF maxVars = do g <- newStdGen
+--                    return (unGen arbitrary g (maxVars * 3))
 
 prob :: IO ParseCNF.CNF
 prob = do cnfOrError <- parseFile "./tests/problems/uf20/uf20-0119.cnf"
