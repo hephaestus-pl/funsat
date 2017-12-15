@@ -1,3 +1,4 @@
+{-# LANGUAGE FlexibleContexts #-}
 
 
 -- | A circuit is a standard one of among many ways of representing a

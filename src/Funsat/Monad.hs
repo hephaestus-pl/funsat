@@ -31,7 +31,7 @@ import Control.Monad.Error
 import Control.Monad.ST.Strict
 import Control.Monad.State.Class
 import Control.Monad.MonadST
-
+import Control.Applicative
 
 instance MonadST s (SSTErrMonad e st s) where
     liftST = dpllST
@@ -61,6 +61,17 @@ newtype SSTErrMonad e st s a =
     SSTErrMonad { unSSTErrMonad :: forall r. (a -> (st -> ST s (Either e r, st)))
                                 -> (st -> ST s (Either e r, st)) }
 
+instance Functor (SSTErrMonad e st s)where
+  fmap = liftM
+
+instance Applicative (SSTErrMonad e st s) where
+  pure  = return
+  (<*>) = ap
+
+instance (Error e) => Alternative (SSTErrMonad e st s) where
+    (<|>) = mplus
+    empty = mzero
+  
 instance Monad (SSTErrMonad e st s) where
     return x = SSTErrMonad ($ x)
     (>>=)    = bindSSTErrMonad

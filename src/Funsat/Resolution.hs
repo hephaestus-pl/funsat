@@ -1,3 +1,4 @@
+{-# LANGUAGE FlexibleContexts #-}
 
 {-
     This file is part of funsat.
